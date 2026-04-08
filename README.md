@@ -1,7 +1,7 @@
 Sistema de Monitoramento Cardíaco
 Um script simples em Python para coleta e análise de dados de frequência cardíaca durante um período de 60 segundos. O objetivo é fornecer estatísticas básicas sobre os batimentos registrados e identificar possíveis variações fora da faixa de repouso padrão.
 
-🚀 Funcionalidades
+ Funcionalidades
 O sistema processa as seguintes informações:
 
 Coleta de Dados: Entrada manual de 60 medições (uma por segundo).
