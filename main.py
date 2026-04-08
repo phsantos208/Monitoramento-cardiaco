@@ -9,20 +9,20 @@ for i in range(60):
     bpm = int(input(f"Segundo {i + 1}: "))
     batimentos.append(bpm)
 
-# 2. Calcular a média (sem sum)
+# 2. Calcular a média 
 total = 0
 for bpm in batimentos:
     total = total + bpm
 
 media = total / 60
 
-# 3. Pico máximo (sem max)
+# 3. Pico máximo 
 maximo = batimentos[0]
 for bpm in batimentos:
     if bpm > maximo:
         maximo = bpm
 
-# 4. Pico mínimo (sem min)
+# 4. Pico mínimo 
 minimo = batimentos[0]
 for bpm in batimentos:
     if bpm < minimo:
